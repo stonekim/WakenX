@@ -1,0 +1,13 @@
+# Local configuration and secrets
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Local artifacts
+.DS_Store
+__pycache__/
+*.py[cod]
+node_modules/
+.venv/
